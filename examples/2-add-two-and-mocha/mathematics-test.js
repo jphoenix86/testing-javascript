@@ -33,3 +33,13 @@ describe('subtractThree()', function () {
     assert.strictEqual(subtractThree(6), 3);
   });
 });
+
+describe('add()', function () {
+  it('adds two numbers together', function () {
+    assert.strictEqual(add(2, 3), 5);
+  });
+
+  it('does not add together a string and a number', function () {
+    assert.isString(add(2, '3'), '23');
+  });
+});

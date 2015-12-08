@@ -39,3 +39,9 @@ describe('isOdd()', function () {
     assert(isOdd(-301));
   });
 });
+
+describe('alwaysTrue()', function () {
+  it('Always returns true', function () {
+    assert(alwaysTrue());
+  });
+});
